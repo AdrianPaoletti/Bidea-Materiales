@@ -1,0 +1,5 @@
+@import "src/styles/abstracts/mixins";
+
+.action-icons {
+  @include display-flex(flex-end);
+}

@@ -1,0 +1,10 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.delete-confirmation {
+  &__buttons {
+    @include display-flex(flex-end);
+    width: 100%;
+    gap: 1.4rem;
+  }
+}

@@ -1,0 +1,75 @@
+{
+    "id": "1234567890",
+    "patient": {
+        "nhc": "Patient/1234567890",
+        "name": "MML Patient"
+    },
+    "surgeryDate": "2018-01-01",
+    "implantationDate": "2018-01-01",
+    "registryDate": "2018-01-02",
+    "reportDate": "2018-01-03",
+    "surgeon": {
+        "name": "Dr. Surgeon",
+        "reference": "A1234567890"
+    },
+    "hospital": {
+        "name": "Hospital",
+        "reference": "A1234567890"
+    },
+    "surgery": {
+        "speciality": {
+            "name": "Cardiology"
+        },
+        "procedure": {
+            "reference": "1234567890",
+            "name": "Pacemaker implantation"
+        },
+        "name": "Surgery",
+        "reference": "1234567890",
+        "operatingRoom": {
+            "name": "OR"
+        }
+    },
+    "implants": [
+        {
+            "hospital": {
+                "reference": "1234567890"
+            },
+            "manufacturer": {
+                "name": "Medtronic",
+                "reference": "MDT"
+            },
+            "provider": {
+                "reference": "Medtronic"
+            },
+            "ean": "1234567890123",
+            "description": "Pacemaker",
+            "serialNumber": "1234567890",
+            "lotNumber": "1234567890",
+            "expirationDate": "2018-01-01",
+            "unit": "1b",
+            "quantity": 1,
+            "price": 1000
+        },
+        {
+            "hospital": {
+                "reference": "1234567890"
+            },
+            "manufacturer": {
+                "name": "Medtronic",
+                "reference": "MDT"
+            },
+            "provider": {
+                "reference": "Medtronic"
+            },
+            "ean": "1234567890123",
+            "description": "Pacemaker",
+            "serialNumber": "1234567890",
+            "lotNumber": "1234567890",
+            "expirationDate": "2018-01-01",
+            "unit": "1b",
+            "quantity": 1,
+            "price": 1000
+        }
+    ]
+}

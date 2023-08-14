@@ -1,0 +1,77 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.preloaded-resources-block {
+  @include display-flex(space-between, flex-start);
+  flex-grow: 1;
+  gap: 3rem 12rem;
+  border-left: 1px solid $color-grey-light;
+
+  &--column {
+    @include display-flex(space-between, flex-start, column);
+    border-bottom: 1px solid $color-grey-light;
+    width: 51.9rem;
+  }
+
+  &__container {
+    @include display-flex(initial, flex-start, column);
+    width: 50%;
+
+    &--filters {
+      @include display-flex(space-between, flex-end, column);
+      max-width: 70rem;
+      gap: 2rem 0;
+    }
+
+    &--column {
+      width: 100%;
+    }
+
+    &--column-filters {
+      width: 100%;
+      gap: 1rem 0;
+    }
+  }
+
+  &__categories {
+    @include display-flex(flex-start);
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 0.5rem 0;
+  }
+
+  &__categories-chip {
+    @include display-flex(flex-start);
+    gap: 0 0.7rem;
+
+    span {
+      padding: 0.45rem 0.8rem;
+      background-color: $color-white;
+      border-radius: 50%;
+      font-size: $font-size-small;
+      font-weight: 700;
+    }
+  }
+
+  &__filters {
+    @include display-flex(initial, flex-end);
+    width: 100%;
+    gap: 0 1.4rem;
+  }
+
+  &__interventions-info {
+    @include display-flex(flex-end);
+    flex-wrap: wrap;
+    gap: 1rem 2.5rem;
+  }
+
+  &__icons {
+    @include display-flex(flex-start, center);
+    gap: 0.5rem;
+  }
+
+  &__buttons {
+    @include display-flex(flex-end);
+    gap: 1.4rem;
+  }
+}

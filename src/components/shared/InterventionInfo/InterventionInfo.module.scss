@@ -1,0 +1,26 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.intervention-info {
+  @include display-flex(initial);
+  width: 100%;
+
+  &__information {
+    @include display-flex();
+    margin-left: 7rem;
+  }
+
+  &__information-block {
+    &:not(:last-child) {
+      margin-right: 2.5rem;
+    }
+
+    p {
+      color: $color-grey-main-info;
+
+      &:not(:last-child) {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}

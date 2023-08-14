@@ -1,0 +1,10 @@
+.landing {
+  font-size: $font-size-normal;
+
+  &__page {
+    > p {
+      font-size: $font-size-normal;
+      padding: 1rem;
+    }
+  }
+}

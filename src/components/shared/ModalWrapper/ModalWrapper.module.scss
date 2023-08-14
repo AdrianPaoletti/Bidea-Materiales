@@ -1,0 +1,51 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $color-white;
+  border-radius: 2rem;
+  width: 80%;
+  height: 80%;
+  max-width: 154rem;
+  max-height: 72rem;
+
+  &__header {
+    background-color: $color-grey-main;
+    @include display-flex(space-between);
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  &__icon {
+    @include display-flex(initial);
+  }
+
+  &__title {
+    color: $color-white;
+    @include display-flex(initial);
+  }
+
+  &__title-text {
+    font-size: $font-size-big;
+    color: inherit;
+  }
+
+  &__close-icon {
+    color: $color-grey-light;
+    @include display-flex();
+    cursor: pointer;
+  }
+}
+
+.intervention-info {
+  border-bottom: 1px solid $color-grey-light;
+  @include display-flex(initial);
+
+  p {
+    font-size: $font-size-normal;
+    border-left: 1px solid $color-grey-light;
+  }
+}

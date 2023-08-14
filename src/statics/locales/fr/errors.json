@@ -1,0 +1,15 @@
+{
+  "err_creating_automated_proposal": "Erreur lors de la création de la proposition automatisée",
+  "err_creating_resource": "Erreur lors de la création de la ressource",
+  "err_deleting_resource": "Erreur lors de la suppression de la ressource",
+  "err_failed_delete_resource": "Échec de la suppression de la ressource",
+  "err_failed_merge_material": "Impossible de fusionner le matériel",
+  "err_filtering_the_search": "Erreur lors du filtrage de la recherche",
+  "err_getting_operating_rooms": "Erreur lors de l'obtention des salles d'opération",
+  "err_intervention_not_found": "Aucune intervention trouvée",
+  "err_it_seems_error": "Il semble qu'il y ait eu une erreur",
+  "err_loading_list_of_reservations": "Erreur lors du chargement de la liste des réservations",
+  "err_loading_materials_bill": "Erreur lors du chargement de la nomenclature",
+  "err_loading_resource": "Une erreur s'est produite lors du chargement de la ressource",
+  "err_ocurred_while_assigning_patient": "Une erreur s'est produite lors de l'attribution au patient"
+}

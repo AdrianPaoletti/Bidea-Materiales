@@ -1,0 +1,9 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.reports {
+  &__buttons {
+    @include display-flex(flex-end, flex-center);
+    margin-right: 3rem;
+  }
+}

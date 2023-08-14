@@ -1,0 +1,7 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.resources-table {
+  border: 2px solid $color-grey-light;
+  border-radius: 2rem;
+}

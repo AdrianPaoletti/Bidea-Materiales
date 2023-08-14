@@ -1,0 +1,15 @@
+{
+  "err_creating_automated_proposal": "Error creating the automated proposal",
+  "err_creating_resource": "Error creating the resource",
+  "err_deleting_resource": "Error deleting the resource",
+  "err_failed_delete_resource": "Failed to delete resource",
+  "err_failed_merge_material": "Failed to merge material",
+  "err_filtering_the_search": "Error filtering the search",
+  "err_getting_operating_rooms": "Error getting operating rooms",
+  "err_intervention_not_found": "No intervention found",
+  "err_it_seems_error": "It seems there was an error",
+  "err_loading_list_of_reservations": "Error loading the list of reservations",
+  "err_loading_materials_bill": "Error loading bill of materials",
+  "err_loading_resource": "An error occurred while loading the resource",
+  "err_ocurred_while_assigning_patient": "An error occurred while assigning to patient"
+}

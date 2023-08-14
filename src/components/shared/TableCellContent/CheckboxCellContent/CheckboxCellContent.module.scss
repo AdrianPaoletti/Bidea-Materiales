@@ -1,0 +1,27 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.checkbox-content-cell {
+  @include display-flex(flex-start);
+  gap: 0 1.4rem;
+
+  &__container {
+    @include display-flex(flex-start);
+    gap: 0 1rem;
+  }
+
+  &__name-description {
+    @include display-flex(flex-start, flex-start);
+    position: relative;
+    gap: 1.75rem;
+
+    &--no-checkbox {
+      gap: 0;
+    }
+  }
+
+  &__icons {
+    @include display-flex(flex-start, center);
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,38 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.filters-header {
+  @include display-flex(initial);
+  flex-wrap: wrap;
+  gap: 1.4rem;
+
+  &__load-state {
+    background-color: $color-grey-light;
+    color: $color-grey-main-info;
+    padding: 0.7rem 2.4rem;
+    border-radius: 1.6rem;
+    font-size: 1.3rem;
+  }
+
+  &__load-state-incomplete {
+    background-color: $color-orange-main;
+    color: $color-grey-main-info;
+    padding: 0.7rem 2.4rem;
+    border-radius: 1.6rem;
+    font-size: 1.3rem;
+  }
+
+  &__filters {
+    @include display-flex(initial);
+    gap: 1.4rem;
+  }
+
+  &__action-buttons {
+    @include display-flex(initial);
+    gap: 1.4rem;
+  }
+
+  &__select-categories {
+    min-width: 42rem;
+  }
+}

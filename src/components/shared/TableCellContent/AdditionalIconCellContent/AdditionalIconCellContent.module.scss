@@ -1,0 +1,19 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.additional-icon {
+  @include display-flex(flex-start, flex-start, column);
+  gap: 0.3rem;
+
+  &__icon-container {
+    @include display-flex(initial);
+
+    p {
+      margin-left: 1rem;
+    }
+  }
+
+  &__icon {
+    @include display-flex();
+  }
+}

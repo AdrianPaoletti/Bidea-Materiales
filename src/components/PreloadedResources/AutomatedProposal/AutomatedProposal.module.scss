@@ -1,0 +1,41 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.automated-proposal {
+  @include display-flex(space-between, flex-start, column);
+  border-bottom: 1px solid $color-grey-light;
+  gap: 3rem;
+  width: 51.9rem;
+
+  &__modal {
+    height: calc(100% - 17rem);
+    margin: 2rem 3rem 3rem 3rem;
+    @include display-flex(space-between, flex-end, column);
+  }
+
+  &__categories {
+    @include display-flex(flex-start);
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 0.5rem 0;
+  }
+
+  &__categories-chip {
+    @include display-flex(flex-start);
+    gap: 0 0.7rem;
+
+    span {
+      padding: 0.45rem 0.8rem;
+      background-color: $color-white;
+      border-radius: 50%;
+      font-size: $font-size-small;
+      font-weight: 700;
+    }
+  }
+
+  &__buttons {
+    @include display-flex(flex-end);
+    width: 100%;
+    gap: 1.4rem;
+  }
+}

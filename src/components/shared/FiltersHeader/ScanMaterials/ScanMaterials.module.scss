@@ -1,0 +1,24 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.accordion {
+  &__title {
+    @include display-flex();
+  }
+
+  &__form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8rem 2.5rem;
+
+    & > div:first-of-type {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+
+  &__buttons {
+    @include display-flex(flex-end);
+    margin-top: 1.4rem;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "err_creating_automated_proposal": "Error creando la propuesta automatizada",
+  "err_creating_resource": "Error creando el recurso",
+  "err_deleting_resource": "Error eliminando el recurso",
+  "err_failed_delete_resource": "Error al eliminar el recurso",
+  "err_failed_merge_material": "Error al fusionar el material",
+  "err_filtering_the_search": "Error al filtrar la busqueda",
+  "err_getting_operating_rooms": "Error al obtener los quirófanos",
+  "err_intervention_not_found": "No se ha encontrado la intervención",
+  "err_it_seems_error": "Parece que ha habido un error",
+  "err_loading_list_of_reservations": "Error cargando el listado de reservas",
+  "err_loading_materials_bill": "Error cargando el listado de materiales",
+  "err_loading_resource": "Ha ocurrido un error al cargar el recurso",
+  "err_ocurred_while_assigning_patient": "Ha ocurrido un error al imputar a paciente"
+}

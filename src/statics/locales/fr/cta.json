@@ -1,0 +1,16 @@
+{
+  "add_resource": "Ajouter une ressource",
+  "add_special_material": "Ajouter du matériel spécial",
+  "apply": "Appliquer",
+  "assign_proposal": "Attribuer une proposition",
+  "cancel": "Annuler",
+  "consult": "Consulter",
+  "delete": "Éliminer",
+  "finish": "Finir",
+  "generate_overall_report": "Générer un rapport global",
+  "impute_to_patient": "Imputer au patient",
+  "patient_detail": "Détail du patient",
+  "scan_material": "Numériser du matériel",
+  "search": "Chercher",
+  "see_proposal": "Voir la proposition"
+}

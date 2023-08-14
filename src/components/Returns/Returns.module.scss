@@ -1,0 +1,18 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.returns {
+  &__charge-patient {
+    @include display-flex(flex-end);
+    margin-right: 3rem;
+  }
+}
+
+.intervention-header {
+  @include display-flex(initial);
+  border-bottom: 1px solid $color-grey-light;
+
+  &__search-bar {
+    border-right: 1px solid $color-grey-light;
+  }
+}

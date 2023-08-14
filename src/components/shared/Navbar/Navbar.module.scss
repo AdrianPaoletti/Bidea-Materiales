@@ -1,0 +1,13 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.navbar {
+  position: relative;
+
+  &__redirect {
+    position: absolute;
+    right: 2.25rem;
+    top: 1.4rem;
+    font-size: 2.5rem;
+  }
+}

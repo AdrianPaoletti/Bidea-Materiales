@@ -1,0 +1,7 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.search-bar {
+  @include display-flex();
+  min-width: 52rem;
+}

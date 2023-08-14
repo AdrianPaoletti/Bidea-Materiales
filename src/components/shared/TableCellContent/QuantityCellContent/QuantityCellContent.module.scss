@@ -1,0 +1,12 @@
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.quantity-cell {
+  @include display-flex(flex-end);
+  gap: 0 0.8rem;
+
+  &__buttons {
+    @include display-flex(center, center, column);
+    visibility: hidden;
+  }
+}

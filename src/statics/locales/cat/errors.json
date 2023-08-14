@@ -1,0 +1,15 @@
+{
+  "err_creating_automated_proposal": "Error creant la proposta automatitzada",
+  "err_creating_resource": "Error creant el recurs",
+  "err_deleting_resource": "Error eliminant el recurs",
+  "err_failed_delete_resource": "Error en eliminar el recurs",
+  "err_failed_merge_material": "Error en fusionar el material",
+  "err_filtering_the_search": "Error en filtrar la cerca",
+  "err_getting_operating_rooms": "Error en obtenir els quiròfans",
+  "err_intervention_not_found": "No s'ha trobat la intervenció",
+  "err_it_seems_error": "Sembla que hi ha hagut un error",
+  "err_loading_list_of_reservations": "Error carregant el llistat de reserves",
+  "err_loading_materials_bill": "Error carregant el llistat de materials",
+  "err_loading_resource": "S'ha produït un error en carregar el recurs",
+  "err_ocurred_while_assigning_patient": "Ha passat un error en imputar pacient"
+}

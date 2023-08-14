@@ -1,0 +1,9 @@
+@import "src/styles/abstracts/mixins";
+
+.charge-to-patient {
+  &__button {
+    @include display-flex(flex-start, flex-end, column);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}

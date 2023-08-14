@@ -1,0 +1,36 @@
+{
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": ["next/core-web-vitals", "prettier"],
+  "plugins": ["react", "simple-import-sort", "import", "testing-library"],
+  "rules": {
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-restricted-syntax": "off",
+    "consistent-return": "off",
+    "no-debugger": "off",
+    "no-console": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "simple-import-sort/imports": [
+      "error",
+      {
+        "groups": [
+          ["^react", "^next"],
+          ["^[^.](\\w)"],
+          ["^\\u0000"],
+          [
+            "^(resources-management)(/.*|$)",
+            "^\\.\\.(?!/?$)",
+            "^\\.\\./?$",
+            "^\\.(?!/?$)",
+            "^\\./?$"
+          ],
+          ["^.+\\.s?css$"]
+        ]
+      }
+    ]
+  }
+}

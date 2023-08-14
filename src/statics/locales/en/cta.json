@@ -1,0 +1,16 @@
+{
+  "add_resource": "Add resource",
+  "add_special_material": "Add special material",
+  "apply": "Apply",
+  "assign_proposal": "Assign Proposal",
+  "cancel": "Cancel",
+  "consult": "Consult",
+  "delete": "Delete",
+  "finish": "Finish",
+  "generate_overall_report": "Generate overall report",
+  "impute_to_patient": "Impute to patient",
+  "patient_detail": "Patient detail",
+  "scan_material": "Scan material",
+  "search": "Search",
+  "see_proposal": "See proposal"
+}
